@@ -66,7 +66,7 @@ const Navbar = () => {
       <div>
         <img
           className="h-6 object-contain"
-          src="./src/assets/image.png"
+          src="./image.png"
           alt=""
         />
       </div>

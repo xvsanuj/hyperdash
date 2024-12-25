@@ -5,7 +5,7 @@ const Features = () => {
     <div className='min-h-screen w-full '>
       <div className='product-1 h-screen bg-[#111] px-80 w-full relative flex flex-col justify-center items-center'>
         <h1 className='text-white absolute top-[12.5%] self-start left-[24%] text-7xl font-light'>Air X</h1>
-        <img className='h-[60vh] object-cover w-[65vw]' src="./src/assets/Features 2.1 video.png" alt="" />
+        <img className='h-[60vh] object-cover w-[65vw]' src="./Features 2.1 video.png" alt="" />
         <p className='self-start text-3xl mt-4 text-white'>Accelerate into a new era</p>
       </div>
       <div className='product-2 h-screen bg-[#111] w-full flex justify-center items-center'>
@@ -23,11 +23,11 @@ const Features = () => {
           </div>
         </div>
         <div className='h-full w-full bg-[#222]'>
-          <img className='h-full object-cover w-full' src="./src/assets/Features 2.2 Image.png" alt="" />
+          <img className='h-full object-cover w-full' src="./Features 2.2 Image.png" alt="" />
         </div>
       </div>
       <div className='product-3 h-screen relative bg-white w-full flex justify-center items-center'>
-        <img className='h-[70%] absolute top-[30%] left-[5%] object-contain w-full' src="./src/assets/Features 2.3 Img.png" alt="" />
+        <img className='h-[70%] absolute top-[30%] left-[5%] object-contain w-full' src="./Features 2.3 Img.png" alt="" />
         <div className='h-full absolute  w-full px-40 pt-40'>
           <h1 className='text-black text-7xl font-light'>Air X</h1>
           <p className='text-black text-3xl mt-4'>A new generation of performance</p>

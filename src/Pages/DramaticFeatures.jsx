@@ -3,15 +3,15 @@ import React from "react";
 const DramaticFeatures = () => {
   const features = [
     {
-      image: "./src/assets/Design Img.png",
+      image: "./Design Img.png",
       title: "Impeccable Design"
     },
     {
-      image: "./src/assets/Performance Img.png", 
+      image: "./Performance Img.png", 
       title: "Elevated Performance"
     },
     {
-      image: "./src/assets/Interiors Img.png",
+      image: "./Interiors Img.png",
       title: "Great Interiors"
     }
   ];
@@ -34,14 +34,14 @@ const DramaticFeatures = () => {
         <div className="h-full w-full">
           <img
             className="h-[60vh] object-cover"
-            src="./src/assets/Sustainable img.png"
+            src="./Sustainable img.png"
             alt=""
           />
         </div>
         <div className="h-full w-fit flex flex-col items-end">
           <img
             className="w-[150vh] object-contain"
-            src="./src/assets/Air X img.png"
+            src="./Air X img.png"
             alt=""
           />
           <div>
@@ -56,16 +56,16 @@ const DramaticFeatures = () => {
       <div className="min-h-[90vh] w-full flex gap-20 bg-[#111]">
         <div className="h-full flex flex-col gap-20 items-center justify-center w-full">
             <div className="h-full w-full flex items-center gap-20">
-                <img className="h-[35vh] w-[35vh] object-cover" src="./src/assets/Air X Img-2.png" alt="" />
-                <img className="h-[35vh] w-[35vh] object-cover" src="./src/assets/Air X Img-2.png" alt="" />
+                <img className="h-[35vh] w-[35vh] object-cover" src="./Air X Img-2.png" alt="" />
+                <img className="h-[35vh] w-[35vh] object-cover" src="./Air X Img-2.png" alt="" />
             </div>
             <div className="h-full flex items-center gap-20 w-full">
-                <img className="h-[35vh] w-[35vh] object-cover" src="./src/assets/Air X Img-2.png" alt="" />
-                <img className="h-[35vh] w-[35vh] object-cover" src="./src/assets/Air X Img-2.png" alt="" />
+                <img className="h-[35vh] w-[35vh] object-cover" src="./Air X Img-2.png" alt="" />
+                <img className="h-[35vh] w-[35vh] object-cover" src="./Air X Img-2.png" alt="" />
             </div>
         </div>
         <div className="h-[80vh] w-full">
-            <img className="h-full object-cover w-full" src="./src/assets/Features 2.2 Image.png" alt="" />
+            <img className="h-full object-cover w-full" src="./Features 2.2 Image.png" alt="" />
         </div>
       </div>
     </div>

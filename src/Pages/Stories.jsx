@@ -8,42 +8,42 @@ import { RiArrowRightLine, RiArrowLeftLine } from "@remixicon/react";
 const Stories = () => {
   const stories = useMemo(() => [
     {
-      image: "./src/assets/Air X img.png",
+      image: "./Air X img.png",
       alt: "Car Taillight",
       title: "Lorem Ipsum",
       description:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     },
     {
-      image: "./src/assets/Air X img.png", 
+      image: "./Air X img.png", 
       alt: "Car Side View",
       title: "Lorem Ipsum",
       description:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     },
     {
-      image: "./src/assets/Air X img.png",
+      image: "./Air X img.png",
       alt: "Car Charging Port", 
       title: "Lorem Ipsum",
       description:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     },
     {
-      image: "./src/assets/Air X img.png",
+      image: "./Air X img.png",
       alt: "Car Charging Port",
       title: "Lorem Ipsum", 
       description:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     },
     {
-      image: "./src/assets/Air X img.png",
+      image: "./Air X img.png",
       alt: "Car Charging Port",
       title: "Lorem Ipsum",
       description:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     },
     {
-      image: "./src/assets/Air X img.png",
+      image: "./Air X img.png",
       alt: "Car Charging Port",
       title: "Lorem Ipsum",
       description:

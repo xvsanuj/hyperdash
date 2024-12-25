@@ -44,7 +44,7 @@ const Specifications = () => {
       <div className="h-screen w-full flex justify-center items-center">
         <img
           className="absolute -left-10 h-full object-contain w-full"
-          src="./src/assets/Model-X-Specs-Hero-Desktop-LHD 1.png"
+          src="./Model-X-Specs-Hero-Desktop-LHD 1.png"
           alt=""
         />
       </div>
