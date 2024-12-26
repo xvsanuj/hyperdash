@@ -5,45 +5,45 @@ import "swiper/css";
 import "swiper/css/navigation";
 import { RiArrowRightLine, RiArrowLeftLine } from "@remixicon/react";
 
-const Stories = () => {
+const Stories = ({ setCursorVisible }) => {
   const stories = useMemo(() => [
     {
-      image: "./Air X img.png",
+      image: "./Story 1 Img.png",
       alt: "Car Taillight",
       title: "Lorem Ipsum",
       description:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     },
     {
-      image: "./Air X img.png", 
+      image: "./Story 2 Img.png", 
       alt: "Car Side View",
       title: "Lorem Ipsum",
       description:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     },
     {
-      image: "./Air X img.png",
+      image: "./Story 3 Img.png",
       alt: "Car Charging Port", 
       title: "Lorem Ipsum",
       description:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     },
     {
-      image: "./Air X img.png",
+      image: "./Story 4 Img.png",
       alt: "Car Charging Port",
       title: "Lorem Ipsum", 
       description:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     },
     {
-      image: "./Air X img.png",
+      image: "./Story 1 Img.png",
       alt: "Car Charging Port",
       title: "Lorem Ipsum",
       description:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     },
     {
-      image: "./Air X img.png",
+      image: "./Story 3 Img.png",
       alt: "Car Charging Port",
       title: "Lorem Ipsum",
       description:
@@ -94,29 +94,15 @@ const Stories = () => {
   );
 
   return (
-    <div className="h-screen w-full bg-[#1C1C1C] px-40 pt-32">
+    <div className="h-screen w-full overflow-x-hidden bg-[#1C1C1C] px-40 pt-32">
       <div className="flex justify-between items-center mb-20">
         <h2 className="text-5xl text-white">Our Stories</h2>
-        <div className="flex gap-4">
-          <button 
-            type="button" 
-            aria-label="Previous slide"
-            className="swiper-prev bg-white h-14 cursor-pointer w-14 flex items-center justify-center text-black p-2"
-          >
-            <RiArrowLeftLine className="cursor-pointer" />
-          </button>
-          <button 
-            type="button"
-            aria-label="Next slide" 
-            className="swiper-next bg-white h-14 cursor-pointer w-14 flex items-center justify-center text-black p-2"
-          >
-            <RiArrowRightLine className="cursor-pointer"/>
-          </button>
-        </div>
       </div>
-      <Swiper {...swiperConfig} className="relative select-none cursor-pointer">
-        {stories.map(renderStoryCard)}
-      </Swiper>
+      <div onMouseEnter={() => setCursorVisible(true)} onMouseLeave={() => setCursorVisible(false)}>
+        <Swiper {...swiperConfig} className="relative select-none cursor-pointer">
+          {stories.map(renderStoryCard)}
+        </Swiper>
+      </div>
     </div>
   );
 };

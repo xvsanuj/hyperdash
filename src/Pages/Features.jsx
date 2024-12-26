@@ -2,7 +2,7 @@ import React from 'react'
 
 const Features = () => {
   return (
-    <div className='min-h-screen w-full '>
+    <div className='min-h-screen w-full overflow-x-hidden'>
       <div className='product-1 h-screen bg-[#111] px-80 w-full relative flex flex-col justify-center items-center'>
         <h1 className='text-white absolute top-[12.5%] self-start left-[24%] text-7xl font-light'>Air X</h1>
         <img className='h-[60vh] object-cover w-[65vw]' src="./Features 2.1 video.png" alt="" />
@@ -28,7 +28,7 @@ const Features = () => {
       </div>
       <div className='product-3 h-screen relative bg-white w-full flex justify-center items-center'>
         <img className='h-[70%] absolute top-[30%] left-[5%] object-contain w-full' src="./Features 2.3 Img.png" alt="" />
-        <div className='h-full absolute  w-full px-40 pt-40'>
+        <div className='h-full absolute w-full px-40 pt-40'>
           <h1 className='text-black text-7xl font-light'>Air X</h1>
           <p className='text-black text-3xl mt-4'>A new generation of performance</p>
           <div className='subtext pt-12'>
@@ -39,7 +39,6 @@ const Features = () => {
             <button className='text-black px-10 py-4 font-medium'>Learn More</button>
           </div>
         </div>
-
       </div>
     </div>
   )
